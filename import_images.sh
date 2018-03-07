@@ -18,6 +18,7 @@ docker pull tizhou86/dockerhub-ci:nettest-amd64-1.0
 docker pull tizhou86/dockerhub-ci:pause-amd64-3.0
 docker pull tizhou86/dockerhub-ci:kube-conformance-v1.9
 docker pull tizhou86/dockerhub-ci:sonobuoy-v0.10.0
+docker pull tizhou86/dockerhub-ci:jessie-dnsutils-amd64-1.0
 
 docker tag tizhou86/dockerhub-ci:kube-conformance-v1.8 gcr.io/heptio-images/kube-conformance:v1.8
 docker tag tizhou86/dockerhub-ci:sonobuoy-v0.9.0 gcr.io/heptio-images/sonobuoy:v0.9.0
@@ -37,4 +38,5 @@ docker tag tizhou86/dockerhub-ci:nettest-amd64-1.0 gcr.io/kubernetes-e2e-test-im
 docker tag tizhou86/dockerhub-ci:pause-amd64-3.0 gcr.io/google_containers/pause-amd64:3.0
 docker tag tizhou86/dockerhub-ci:kube-conformance-v1.9 gcr.io/heptio-images/kube-conformance:v1.9
 docker tag tizhou86/dockerhub-ci:sonobuoy-v0.10.0 gcr.io/heptio-images/sonobuoy:v0.10.0
+docker tag tizhou86/dockerhub-ci:jessie-dnsutils-amd64-1.0 gcr.io/kubernetes-e2e-test-images/jessie-dnsutils-amd64:1.0
 
